@@ -1,0 +1,29 @@
+# OMNeT++ build output
+out/
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.dylib
+*.so
+*.exe
+
+# Files generated from .msg / .sm sources by the OMNeT++ tools
+*_m.cc
+*_m.h
+*_sm.cc
+*_sm.h
+
+# Simulation results
+results/
+*.sca
+*.vec
+*.vci
+*.elog
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
